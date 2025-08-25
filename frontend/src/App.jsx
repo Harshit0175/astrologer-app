@@ -4,6 +4,7 @@ import AstrologerLanding from "./landingpage/Astrologerlanding";
 import Booking from "./landingpage/booking";
 import Payment from "./landingpage/payment";
 
+
 function App() {
   const [bookingData, setBookingData] = useState({
     selectedAstro: null,
@@ -13,6 +14,7 @@ function App() {
 
   return (
     <>
+  
       <Routes>
         <Route
           path="/" element={
